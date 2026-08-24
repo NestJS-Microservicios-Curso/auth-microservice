@@ -14,7 +14,7 @@
     "sourceMap": true,
     "outDir": "./dist",
     "rootDir": "./src",
-    "incremental": true,
+    "incremental": false,
     "skipLibCheck": true,
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
@@ -26,6 +26,9 @@
       "jest"
     ]
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
     "test/**/*.ts",
     "dist"
