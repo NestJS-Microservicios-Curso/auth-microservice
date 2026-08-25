@@ -6,7 +6,7 @@ steps:
         '-t',
         'europe-west9-docker.pkg.dev/nestjs-microservices-506615/image-registry/auth-microservice',
         '-f',
-        'dockerfile',
+        'Dockerfile',
         '--platform=linux/amd64',
         '.',
       ]
